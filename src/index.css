@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+* {
+  font-family: Montserrat;
+}
+
+.scroll {
+  animation-name: scroll;
+  animation-duration: 0.7s;
+}
+
+@keyframes scroll {
+  from {
+      transform: translateY(300px);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0px);
+      opacity: 1;
+  }
+}
