@@ -8,7 +8,7 @@ function Map ({points}) {
     return <div>
         {
             points.map((val, i) => {
-                let [state, text] = val;
+                let [_, text] = val;
 
                 return <div key={i} style={item()}>
                     <div>

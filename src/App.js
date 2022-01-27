@@ -7,7 +7,6 @@ import StakingDevice from './components/StakingDevice';
 import ClubWelcome from './components/ClubWelcome';
 import Footer from './components/Footer';
 import Roadmap from './components/Roadmap';
-import BackgroundBlurs from './components/BackgroundBlurs';
 import styled from 'styled-components';
 import './App.css';
 import About from './components/About';
@@ -64,7 +63,6 @@ function App() {
 
 
   return (<Site>
-    <BackgroundBlurs />
     <Welcome />
     <Stats />
     <About />

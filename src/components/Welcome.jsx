@@ -8,10 +8,6 @@ import Doc from '../assets/Doc.png';
 import M from '../assets/M.png';
 import HeaderBanner from "../assets/HeaderBanner.svg";
 
-const Item = styled.div`
-
-`;
-
 const BoxContainer = styled.div`
 display: flex;
 flex-direction: column;
@@ -61,11 +57,6 @@ const BgVid = styled.div`
 const BText = styled.div`
 
 `;
-
-const Video = styled.video`
-width: 100%;
-`;
-
 
 function Welcome() {
     const texts = ["Staking", "Whitepaper", "Metaverse"],
